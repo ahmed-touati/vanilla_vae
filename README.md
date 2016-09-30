@@ -15,8 +15,8 @@ After training, model parameters are stored and you could visualize the learned 
 `python vae_visualize.py mnist` or `python vae_visualize.py faces`
 
 # Visualisations of learned data manifold with two-dimensional latent space learned with VAE
-##  MNIST manifold learned
+##  Learned MNIST manifold
 ![mnist](2D_mnist_manifold.png)
 
-## Frey Faces manifold learned
+## Learned Frey Faces manifold
 ![mnist](2D_faces_manifold.png)
