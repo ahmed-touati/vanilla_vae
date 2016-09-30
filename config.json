@@ -1,0 +1,30 @@
+{
+  "mnist": {
+    "L": 2,
+    "z_dim": 2,
+    "n_hid": 500,
+    "n_epochs": 300,
+    "batch_size": 100,
+    "valid_freq": 1000,
+    "checkpoint_freq": 5000,
+    "model_dir": "mnist_model",
+    "width": 28,
+    "length": 28,
+    "channels": 1,
+    "img_file": "2D_mnist_manifold.png"
+  },
+  "faces": {
+    "L": 2,
+    "z_dim": 2,
+    "n_hid": 200,
+    "n_epochs": 300,
+    "batch_size": 100,
+    "valid_freq": 1000,
+    "checkpoint_freq": 5000,
+    "model_dir": "face_model",
+    "width": 20,
+    "length": 28,
+    "channels": 1,
+    "img_file": "2D_faces_manifold.png"
+  }
+}
